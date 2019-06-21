@@ -161,11 +161,12 @@ def push(player, dealer):
     print("Dealer and player tie! PUSH")
 
 # Leaving player_chips outside the while loop keeps the game from always resetting to 100 chips.
+print("Welcome to Blackjack! You start out with 100 Chips!")
 player_chips = Chips()
+
 
 while True:
     # Print an opening statement
-    print("Welcome to Blackjack! You start out with 100 Chips!")
     # Set up the Player's chips
 
     # Create & shuffle the deck, deal two cards to each player
