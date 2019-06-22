@@ -221,7 +221,7 @@ while True:
         # Inform Player of their chips total
     print("\n Player total chips are: {}".format(player_chips.total))
     # Ask to play again
-    new_game = input("Would you like to play another hand? y/n")
+    new_game = input("Would you like to play another hand? y/n ")
 
     if new_game[0].lower() == "y":
         playing = True
