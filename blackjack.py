@@ -230,3 +230,6 @@ while True:
         print("Thank you for playing!")
 
     break
+
+
+# Might need to update to improve code
